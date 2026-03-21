@@ -1,0 +1,46 @@
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\user\OneDrive\Desktop\package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * C:\Users\user\OneDrive\Desktop\React\metermate\package-lock.json
+   * C:\Users\user\OneDrive\Desktop\React\package-lock.json
+
+   ▲ Next.js 15.5.12
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 36.6s
+   Linting and checking validity of types ...
+ ⨯ ESLint: Cannot find module 'C:\Users\user\OneDrive\Desktop\React\metermate\node_modules\eslint-config-next\core-web-vitals' imported from C:\Users\user\OneDrive\Desktop\React\metermate\eslint.config.mjs Did you mean to import "eslint-config-next/core-web-vitals.js"?
+   Collecting page data ...
+   Generating static pages (0/13) ...
+   Generating static pages (3/13) 
+   Generating static pages (6/13) 
+   Generating static pages (9/13) 
+ ✓ Generating static pages (13/13)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                      128 B         102 kB
+├ ○ /_not-found                             1 kB         103 kB
+├ ○ /auth/reset-password                 50.7 kB         170 kB
+├ ƒ /auth/signout                          128 B         102 kB
+├ ƒ /dashboard                            110 kB         219 kB
+├ ƒ /dashboard/admin                     3.89 kB         187 kB
+├ ƒ /dashboard/payments                  4.58 kB         117 kB
+├ ƒ /dashboard/readings                  11.4 kB         194 kB
+├ ○ /login                               3.34 kB         116 kB
+└ ○ /setup                               3.78 kB         123 kB
++ First Load JS shared by all             102 kB
+  ├ chunks/255-091853b4155593e2.js       45.7 kB
+  ├ chunks/4bd1b696-409494caf8c83275.js  54.2 kB
+  └ other shared chunks (total)          2.01 kB
+
+
+ƒ Middleware                             82.3 kB
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

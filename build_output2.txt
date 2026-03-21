@@ -1,0 +1,22 @@
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\user\OneDrive\Desktop\package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * C:\Users\user\OneDrive\Desktop\React\metermate\package-lock.json
+   * C:\Users\user\OneDrive\Desktop\React\package-lock.json
+
+   ▲ Next.js 15.5.12
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 2.5min
+   Linting and checking validity of types ...
+ ⨯ ESLint: Cannot find module 'C:\Users\user\OneDrive\Desktop\React\metermate\node_modules\eslint-config-next\core-web-vitals' imported from C:\Users\user\OneDrive\Desktop\React\metermate\eslint.config.mjs Did you mean to import "eslint-config-next/core-web-vitals.js"?
+   Collecting page data ...
+[Error [PageNotFoundError]: Cannot find module for page: /] {
+  code: 'ENOENT'
+}
+
+> Build error occurred
+[Error: Failed to collect page data for /] { type: 'Error' }

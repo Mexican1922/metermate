@@ -1,0 +1,28 @@
+
+> metermate@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 36.8s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/9) ...
+  Generating static pages using 7 workers (2/9) 
+⨯ useSearchParams() should be wrapped in a suspense boundary at page "/login". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at Q (C:\Users\user\.gemini\antigravity\scratch\metermate\.next\server\chunks\ssr\node_modules_next_c73d6895._.js:2:2111)
+    at o (C:\Users\user\.gemini\antigravity\scratch\metermate\.next\server\chunks\ssr\node_modules_next_c73d6895._.js:4:5284)
+    at k (C:\Users\user\.gemini\antigravity\scratch\metermate\.next\server\chunks\ssr\[root-of-the-server]__f87d0dc4._.js:1:1805)
+    at an (C:\Users\user\.gemini\antigravity\scratch\metermate\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:84360)
+    at ai (C:\Users\user\.gemini\antigravity\scratch\metermate\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:86179)
+    at ai (C:\Users\user\.gemini\antigravity\scratch\metermate\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:104708)
+    at al (C:\Users\user\.gemini\antigravity\scratch\metermate\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:107953)
+    at as (C:\Users\user\.gemini\antigravity\scratch\metermate\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:105368)
+    at am (C:\Users\user\.gemini\antigravity\scratch\metermate\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:112882)
+    at ai (C:\Users\user\.gemini\antigravity\scratch\metermate\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:98808)
+Error occurred prerendering page "/login". Read more: https://nextjs.org/docs/messages/prerender-error
+Export encountered an error on /login/page: /login, exiting the build.
+⨯ Next.js build worker exited with code: 1 and signal: null

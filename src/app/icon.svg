@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="108" fill="#1a1625"/>
+  <!-- Meter circle -->
+  <circle cx="256" cy="256" r="170" stroke="#E6A020" stroke-width="20" fill="none"/>
+  <!-- Meter tick marks -->
+  <line x1="256" y1="96" x2="256" y2="116" stroke="#E6A020" stroke-width="10" stroke-linecap="round"/>
+  <line x1="256" y1="396" x2="256" y2="416" stroke="#E6A020" stroke-width="10" stroke-linecap="round"/>
+  <line x1="96" y1="256" x2="116" y2="256" stroke="#E6A020" stroke-width="10" stroke-linecap="round"/>
+  <line x1="396" y1="256" x2="416" y2="256" stroke="#E6A020" stroke-width="10" stroke-linecap="round"/>
+  <!-- Diagonal ticks -->
+  <line x1="143" y1="143" x2="157" y2="157" stroke="#E6A020" stroke-width="8" stroke-linecap="round"/>
+  <line x1="369" y1="143" x2="355" y2="157" stroke="#E6A020" stroke-width="8" stroke-linecap="round"/>
+  <line x1="143" y1="369" x2="157" y2="355" stroke="#E6A020" stroke-width="8" stroke-linecap="round"/>
+  <line x1="369" y1="369" x2="355" y2="355" stroke="#E6A020" stroke-width="8" stroke-linecap="round"/>
+  <!-- Lightning bolt -->
+  <path d="M280 120 L220 255 L270 255 L232 392 L320 235 L265 235 Z" fill="#E6A020"/>
+  <!-- Center dot -->
+  <circle cx="256" cy="256" r="14" fill="#E6A020"/>
+</svg>
